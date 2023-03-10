@@ -1,61 +1,62 @@
 body {
-  font: 20px Montserrat, sans-serif;
-  line-height: 1.8;
-  color: #f5f6f7;
-}
-
-p {
-  font-size: 16px;
-}
-
-.margin {
-  margin-bottom: 45px;
-}
-
-.bg-1 {
-  background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
-  background-attachment:fixed;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .margin {
+    margin-bottom: 45px;
+  }
+  
+  .bg-1 {
+    background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
+    background-attachment:fixed;
+      background-size: cover;
+    color: #ffffff;
+  }
+  
+  .bg-2 {
+    background-color: #006432;
+    /* Dark Blue */
+    color: #ffffff;
+  }
+  
+  .bg-3 {
+    background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
+    background-attachment:fixed;
     background-size: cover;
-  color: #ffffff;
-}
+    color: #ffffff;
+  }
+  
+  .bg-4 {
+    background-color: #004414;
+    /* Black Gray */
+    color: #fff;
+  }
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .navbar {
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #bc1a1a !important;
+  }
+   
 
-.bg-2 {
-  background-color: #006432;
-  /* Dark Blue */
-  color: #ffffff;
-}
-
-.bg-3 {
-  background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
-  background-attachment:fixed;
-  background-size: cover;
-  color: #ffffff;
-}
-
-.bg-4 {
-  background-color: #004414;
-  /* Black Gray */
-  color: #fff;
-}
-
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.navbar {
- 
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 12px;
-  letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-  color: #bc1a1a !important;
-}
- 
-
+  
