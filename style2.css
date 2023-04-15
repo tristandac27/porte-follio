@@ -1,62 +1,61 @@
 body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
   }
   
   p {
-    font-size: 16px;
+  font-size: 16px;
+  margin-bottom: 1rem;
   }
   
   .margin {
-    margin-bottom: 45px;
+  margin-bottom: 2rem;
   }
   
   .bg-1 {
-    background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
-    background-attachment:fixed;
-      background-size: cover;
-    color: #ffffff;
+  background-color: #f9f9f9;
+  color: #333333;
   }
   
   .bg-2 {
-    background-color: #006432;
-    /* Dark Blue */
-    color: #ffffff;
+  background-color: #0077b6;
+  color: #ffffff;
   }
   
   .bg-3 {
-    background-image: url("https://media.istockphoto.com/id/1350046657/photo/dark-green-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=Ju4QUtR0LQ9OQFcn9_1MnSXTbblbYmZrs93qh2uYKuM=");
-    background-attachment:fixed;
-    background-size: cover;
-    color: #ffffff;
+  background-color: #f2f2f2;
+  color: #333333;
   }
   
   .bg-4 {
-    background-color: #004414;
-    /* Black Gray */
-    color: #fff;
+  background-color: #343a40;
+  color: #ffffff;
   }
   
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   }
   
   .navbar {
-   
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+  background-color: #f9f9f9;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  }
+  
+  .navbar-nav li a {
+  color: #333333;
+  transition: all 0.3s ease;
   }
   
   .navbar-nav li a:hover {
-    color: #bc1a1a !important;
+  color: #0077b6;
   }
-   
-
-  
