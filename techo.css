@@ -45,3 +45,9 @@ width: 300px;
     background-color: #f6f6f6;
     font-family: Arial, sans-serif;
   }
+.btn2 {
+    width: 200px;
+    border-radius: 10px;
+    background-color: blue;
+
+}

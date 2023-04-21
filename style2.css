@@ -20,8 +20,12 @@ body {
   }
   
   .bg-2 {
-  background-color: #0077b6;
-  color: #ffffff;
+    
+  background-color: #a2afb6;
+  border-radius: 5%;
+  color: #413c3c;
+  
+  
   }
   
   .bg-3 {
@@ -58,4 +62,5 @@ body {
   
   .navbar-nav li a:hover {
   color: #0077b6;
+  border-radius: 50px;
   }
